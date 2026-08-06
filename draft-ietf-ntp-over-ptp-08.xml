@@ -163,8 +163,8 @@ Perhaps:
    increases as the number of clients grows.
 -->
 
-        <t>The disadvantage of NTP is that the transmit timestamping rate grows with
-          the number of clients. A server that is limited by the hardware
+        <t>The disadvantage of NTP is that the transmit timestamping rate increases
+          as the number of clients grows. A server that is limited by the hardware
           timestamping rate cannot provide a highly accurate time service to
           the same number of clients as with PTP using multicast messaging.</t>
       </section>

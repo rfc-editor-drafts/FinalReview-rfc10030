@@ -45,7 +45,7 @@ the title) for use on https://www.rfc-editor.org/search. -->
         symmetric modes of the Network Time Protocol (NTP) that encapsulates
         NTP messages in messages of the Precision Time Protocol (PTP). This
         transport enables hardware timestamping in network interface
-        controllers that can timestamp only PTP messages and delay
+        controllers (NICs) that can timestamp only PTP messages and delay
         corrections in PTP transparent clocks.</t>
     </abstract>
   </front>
@@ -56,7 +56,7 @@ the title) for use on https://www.rfc-editor.org/search. -->
         was designed for highly accurate synchronization of clocks in local
         networks. It relies on hardware timestamping support in all network
         devices involved in the synchronization (e.g., network interface
-        controllers, switches, and routers) to eliminate the impact of
+        controllers (NICs), switches, and routers) to eliminate the impact of
         software, processing, and queueing delays on the accuracy of offset and
         delay measurements.</t>
       <t>PTP was originally designed for multicast communication. Later,
@@ -91,7 +91,7 @@ the title) for use on https://www.rfc-editor.org/search. -->
         mode). Transparent clocks are specific to the PTP delay mechanism used
         in the network, either end to end (E2E) or peer to peer (P2P).</t>
       <t>This document specifies a new transport for NTP to enable hardware
-        timestamping on Network Interface Cards (NICs) that can timestamp only PTP messages and to
+        timestamping on NICs that can timestamp only PTP messages and to
         take advantage of one-step E2E PTP unicast transparent clocks. It adds
         a new type-length-value (TLV) for PTP to contain NTP messages and
         a new extension field for NTP to provide clients and peers with the

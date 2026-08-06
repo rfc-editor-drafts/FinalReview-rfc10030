@@ -196,7 +196,7 @@ Original:
 -->
 
       <t>A new TLV is defined for PTP to contain NTP messages in the NTP client
-        (3), server (4), and symmetric modes (1 and 2). Using other NTP modes in
+        (3), server (4), and symmetric modes (1 and 2) (see <xref target="RFC5905" format="default"/>. Using other NTP modes in
         the TLV is not specified. Any transport specified for PTP that supports
         unicast messaging, and an IPv4 or IPv6 mapping, can be used for NTP
         over PTP.</t>

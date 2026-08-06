@@ -471,8 +471,8 @@ Perhaps:
    network corrections.
 -->
 
-      <t>Root delay (DELTA) <bcp14>MUST NOT</bcp14> be corrected to not make the maximum
-        assumed error (root distance) dependent on accurate network
+      <t>Root delay (DELTA) <bcp14>MUST NOT</bcp14> be corrected to ensure that the maximum
+        assumed error (root distance) remains independent of network
         corrections.</t>
       <t>The scaling by the freq_tc constant (e.g., 100 parts per million (ppm)) is needed to
         make room for errors in corrections made by transparent clocks running

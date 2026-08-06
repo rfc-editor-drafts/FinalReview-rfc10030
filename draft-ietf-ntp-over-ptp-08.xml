@@ -24,7 +24,7 @@ Current:
 -->
 
   <front>
-    <title abbrev="NTP over PTP">NTP over the Precision Time Protocol (PTP)</title>
+    <title abbrev="NTP over PTP">Network Time Protocol (NTP) over the Precision Time Protocol (PTP)</title>
     <seriesInfo name="RFC" value="10030"/>
     <author fullname="Miroslav Lichvar" initials="M." surname="Lichvar">
       <organization>Red Hat</organization>

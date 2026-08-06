@@ -378,8 +378,8 @@ Perhaps:
         
         The receive
         duration included in the NTP correction cancels out the transposition
-        of PTP receive timestamp corresponding to the beginning of the
-        reception to NTP receive timestamp corresponding to the end of the
+        from the PTP receive timestamp (which corresponds to the beginning of the
+        reception) to NTP receive timestamp (which corresponds to the end of the
         reception.</t>
       <t>The Figure <xref format="counter" target="ptp-vs-ntp-correction"/>
         shows the NTP timestamps, transmit/receive durations, and processing

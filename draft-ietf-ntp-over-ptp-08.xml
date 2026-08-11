@@ -347,7 +347,7 @@ Current:
       </figure>
       <t>The length of the padding is the minimum required to make a valid
         extension field in the used version of NTP. In NTPv4, it is 16 octets
-        to get a 28-octet extension field when following <xref target="RFC7822" format="default"/>.</t>
+        to get a 28-octet extension field conforming to <xref target="RFC7822" format="default"/>.</t>
       <t>The Network Correction field in the extension field uses the 64-bit
         NTP timestamp format (with resolution of about 1/4th of a nanosecond). The
         correction field in the PTP header has a different format (64-bit

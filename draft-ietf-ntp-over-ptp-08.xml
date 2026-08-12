@@ -196,7 +196,7 @@ Original:
 -->
 
       <t>A new TLV is defined for PTP to contain NTP messages in the NTP client
-        (3), server (4), and symmetric modes (1 and 2) (see <xref target="RFC5905" format="default"/>. Using other NTP modes in
+        (3), server (4), and symmetric modes (1 and 2) (see <xref target="RFC5905" format="default"/>). Using other NTP modes in
         the TLV is not specified. Any transport specified for PTP that supports
         unicast messaging, and an IPv4 or IPv6 mapping, can be used for NTP
         over PTP.</t>
@@ -380,7 +380,7 @@ Perhaps:
         duration included in the NTP correction cancels out the transposition
         from the PTP receive timestamp (which corresponds to the beginning of the
         reception) to NTP receive timestamp (which corresponds to the end of the
-        reception.</t>
+        reception).</t>
       <t>The Figure <xref format="counter" target="ptp-vs-ntp-correction"/>
         shows the NTP timestamps, transmit/receive durations, and processing
         and queuing delays included in PTP corrections for an NTP exchange made
